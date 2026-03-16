@@ -18,11 +18,11 @@ const msg = document.getElementById("formMsg");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  
-  msg.innerText = "✅ Thank you! Call or WhatsApp us now at "9346704675" to discuss your requirements";
+  msg.innerText = "✅ Thank you! We will contact you soon.";
+ 
   form.reset();
 
   setTimeout(() => {
     msg.innerText = "";
-  }, 2000);
+  }, 3000);
 });
